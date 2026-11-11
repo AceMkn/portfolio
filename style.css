@@ -8,6 +8,11 @@ body {
     line-height: 1.6;
     }
 
+#greetings {
+    position: relative;
+    bottom: -40px;
+}
+
 h1 {
     color: #d4c28a;
     font-size: 2.5rem;
@@ -78,6 +83,22 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 40px 0 0 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    color: #8a8a8a;
+}
+
+.skills li:hover {
+    color: #d4c28a;
 }
  
 @media (max-width: 700px) {
